@@ -1232,6 +1232,7 @@ footer {
 
 * {
   transition: all ease-in-out 250ms;
+  scroll-behavior: smooth;
 }
 
 .navbar-brand img {
