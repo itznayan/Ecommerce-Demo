@@ -1,3 +1,6 @@
+import { addToCart } from "./addToCart";
+import { homeQuntityToggle } from "./homeQuntityToggle";
+
 const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplete");
 
@@ -12,6 +15,7 @@ export const showProductContainer = (products) => {
 
     const productClone = document.importNode(productTemplate.content, true);
 
+    productClone.querySelector("#cardValue").setAttribute("id", `card${id}`);
     productClone.querySelector(".category").textContent = category;
     productClone.querySelector(".productName").textContent = name;
     productClone.querySelector(".productImage").src = image;
@@ -24,6 +28,17 @@ export const showProductContainer = (products) => {
       price * 1.25
     }`;
 
+    productClone
+      .querySelector(".stockElement")
+      .addEventListener("click", () => {
+        homeQuntityToggle(event, id, stock);
+      });
+
+    productClone
+      .querySelector(".add-to-cart-button")
+      .addEventListener("click", (event) => {
+        addToCart(event, id, stock);
+      });
     productContainer.append(productClone);
   });
 };
