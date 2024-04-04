@@ -1300,7 +1300,7 @@ footer {
 @media (width<=768px) {
   .navbar-brand img {
     display: flex;
-    transform: translate(32vw);
+    transform: translate(26vw);
   }
 
   .content_1 img {
@@ -1315,19 +1315,47 @@ footer {
 
   }
 
-  .hero-subheading p {
-    font-size: 100rem;
-  }
 }
 
 @media (width<=980px) {
   figure {
     scale: 1.8;
   }
+
+  p {
+    font-size: 3.4rem;
+  }
+
+  #paymentMode {
+
+    transform: translate(2vw);
+
+  }
+
+  .content_1 img {
+
+    transform: translate(0vw);
+  }
 }
 
 @media (width<=680px) {
   p {
     font-size: 1.5rem;
+  }
+
+  #paymentMode {
+
+    transform: translate(2vw);
+
+  }
+
+  .content_1 img {
+
+    transform: translate(0vw);
+  }
+
+  .nav-item {
+    scale: 1;
+    margin-left: -15px;
   }
 }
