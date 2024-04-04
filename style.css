@@ -1359,3 +1359,18 @@ footer {
     margin-left: -15px;
   }
 }
+
+.productBrand {
+  margin: auto;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.information img {
+  mix-blend-mode: multiply;
+}
+
+.information:hover img {
+  scale: 1.15;
+
+}

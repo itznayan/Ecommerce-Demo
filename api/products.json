@@ -12,9 +12,9 @@
   {
     "id": 2,
     "name": "DELTA 928S",
-    "category": "Speaker",
+    "category": "Cabinet",
     "brand": "BRITISH ACOUSTICS",
-    "price": 9800.0,
+    "price": 98000.0,
     "stock": 50,
     "description": "Aluminum demodulating ring for low distortion. Double silicone spider for optimized compliance. 2400W power capacity. 100mm copper voice coil. 35 - 1000Hz response.",
     "image": "https://cdn.shopify.com/s/files/1/0536/9639/7492/products/928_2_360x.jpg?v=1640684638"
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "SRX 812",
-    "category": "Speaker + Box",
+    "category": "Cabinet",
     "brand": "JBL",
     "price": 25000.0,
     "stock": 10,
@@ -34,27 +34,27 @@
     "name": "18 SW 115",
     "category": "Speaker",
     "brand": "B&C",
-    "price": 50000.0,
+    "price": 28500.0,
     "stock": 10,
     "description": "18 Bass loud speaker.1700W.8 Ohm. 97dB. 35-1500Hz. Neodym Magnet. TWP Waterproof. Xmax +/- 14mm.",
     "image": "https://vmt.in/cdn/shop/products/18sw115_2048x2048.jpg?v=1623053586"
   },
   {
     "id": 5,
-    "name": "DBR 12",
-    "category": "Box",
-    "brand": "YAMAHA",
-    "price": 50000.0,
+    "name": "SE 18 1500",
+    "category": "Speaker",
+    "brand": "RCF",
+    "price": 12500.0,
     "stock": 10,
-    "description": "DBR 12: 12” woofer. Portable, versatile. Ideal for musicians, DJs, public speaking. M10 suspension points. Suitable for various venues.",
+    "description": "SE 18 1500 woofer. Portable, versatile. Ideal for musicians, DJs, public speaking. M10 suspension points. Suitable for various venues.",
     "image": "https://vmt.in/cdn/shop/products/720_2048x2048.jpg?v=1616334399"
   },
   {
     "id": 6,
     "name": "DBR 12",
-    "category": "Box",
+    "category": "Cabinet",
     "brand": "YAMAHA",
-    "price": 50000.0,
+    "price": 32500.0,
     "stock": 10,
     "description": "DBR 12: 12” woofer. Portable, versatile. Ideal for musicians, DJs, public speaking. M10 suspension points. Suitable for various venues.",
     "image": "../assets/dbr12.webp"
